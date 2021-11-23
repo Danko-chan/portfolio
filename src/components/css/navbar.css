@@ -1,0 +1,21 @@
+.navBar{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+}
+a {  
+    margin: 4vh ;
+    font-size: 1.4rem;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+}
+/* #Home{
+    
+}
+
+#Resume{
+   
+} */
