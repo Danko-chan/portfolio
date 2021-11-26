@@ -38,14 +38,6 @@ export default function Portfolio() {
             
             <div className="aboutMe">
           
-                        <div className="theme">
-                            <h3 id="title">Pick Theme</h3>
-                            <div className="themeBtn">
-                                <button className="a">a</button>
-                                <button className="a">c</button>
-                                <button className="a">b</button>
-                            </div>  
-                        </div>
                             <div className="content">
                                 I am a
                             </div>
@@ -53,15 +45,29 @@ export default function Portfolio() {
         
     </div> 
          
-        {/*
         <div className="techStack">
-           
+        <h2 id="heading tech">Technologies I am familiar with</h2>
+           <ul className="technologies"> 
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+                <li className="tech"></li>
+           </ul>
         </div>
         <div className="projects">
            
         </div>
-        <div className="contactMe"> */}
-           
+        <div className="contactMe"> 
+        
+        </div>
        
         </>
     )
