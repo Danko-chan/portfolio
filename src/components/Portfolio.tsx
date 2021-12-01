@@ -47,20 +47,11 @@ export default function Portfolio() {
          
         <div className="techStack">
         <h2 id="heading tech">Technologies I am familiar with</h2>
-           <ul className="technologies"> 
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-                <li className="tech"></li>
-           </ul>
+           <div className="technology">
+           
+          
+           
+           </div>
         </div>
         <div className="projects">
            

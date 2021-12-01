@@ -85,9 +85,9 @@ margin-bottom: 0;
     top: 12px;
     right: 8px;
 }
-.technologies{
+.technology{
     display: flex;
-    align-items: flex-start;
-    align-content: flex-start;
+    flex-direction: row;
+    align-content: space-between;
 }
 
