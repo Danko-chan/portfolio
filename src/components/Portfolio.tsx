@@ -36,7 +36,7 @@ export default function Portfolio() {
             <div className="technologies">
                 
                 <ul>
-                    <li>JavaScript</li>
+                    <li><img src={require('./assets/technologies/javascript.png')} alt="javascript" /> JavaScript</li>
                     <li>Java</li>
                     <li>Python</li>
                     <li></li>
