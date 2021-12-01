@@ -9,57 +9,130 @@ export default function Portfolio() {
         <NavBar />
         <div className="Home-page">
             <div className="container">
-                    
-                    <div className="left-content"> 
-
-                   
-
-                        <h1 id="name">Hi, I'm Abhay Verma</h1>   
+                 
+                        <h1 id="name">Hey There, I'm Abhay Verma</h1>   
                         <p id="tagLine">Computer Science Engineer</p>
                     </div>
 
-                    {/* <div className="main-content">
-                    <h1>center</h1>
-
-                    </div> */}
-                    
-                    <div className="right-content">
-                        <ul id="social">
-                            <li><a href="l" id="Github">github</a></li>
-                            <li><a href="l" id="Twitter">Twitter</a></li>
-                            <li><a href="l" id="LinkedIn">LinkedIn</a></li>
-                        </ul>                 
-                    </div>
-
-        
-
-
-            </div>
-            
             <div className="aboutMe">
-          
+
+                <h1>About Me</h1>
                             <div className="content">
-                                I am a
+                                <p>Hi, I am Abhay. A full-stack developer. 
+                                    I'm pursuing B. Tech from GGITS Jabalpur, in Computer Science Engineering.
+                                    I like building website
+                                    and learning new things. You'll always find me working 
+                                    on a project for hackathons. 
+                                    I have been working with web based tools 
+                                    & technologies for over a year now. 
+                                    I am able to build fast, secure 
+                                    and production-grade applications.
+                                    I am also an active member of the UNI.DEV Club - GGITS.
+                                    </p>
                             </div>
+            </div>
+
+            <h1 className="tech">Technologies</h1>
+            <div className="technologies">
+                
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li>Node.js</li>
+                    <li></li>
+                    <li></li>
+                    <li>C++</li>
+                    <li></li>
+                    <li>TypeScript</li>
+                </ul>
+                <ul>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>React.js</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div className="project">
+                <h1>Projects</h1>
+                <div className="projects">
+                    <div className="project1">
+                        <h3 className="project-heading">Carbon FootPrint Calculator</h3>
+                        <p className="project-disc">hfiosajfdjn hfiajfhef ih fas</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">API Data Retriver</h3>
+                        <p className="project-disc">ur biuhdsf afhsfhiba fh i</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Healthcare</h3>
+                        <p className="project-disc">uahfso asuhfo qe rfpb</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">JavaScript Funtion</h3>
+                        <p className="project-disc">ret vfvr hywqrevzx sg</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Let Me Be</h3>
+                        <p className="project-disc">egfrybcb dfsew  faerd</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    <div className="project1">
+                        <h3 className="project-heading">Something</h3>
+                        <p className="project-disc">sdgqret dsgarwrew saczxv</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div className="contactMe">
+
+                <h1 className="contact">Contact Me</h1>
+                <div className="contact">
+
+                </div>
+
             </div>
         
     </div> 
-         
-        <div className="techStack">
-        <h2 id="heading tech">Technologies I am familiar with</h2>
-           <div className="technology">
-           
-          
-           
-           </div>
-        </div>
-        <div className="projects">
-           
-        </div>
-        <div className="contactMe"> 
-        
-        </div>
-       
+ 
         </>
     )
 }
