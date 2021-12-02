@@ -14,25 +14,31 @@ export default function Portfolio() {
                         <p id="tagLine">Computer Science Engineer</p>
                     </div>
 
-            <div className="aboutMe">
+            <div className="aboutMe section">
 
                 <h1>About Me</h1>
                             <div className="content">
                                 <p>Hi, I am Abhay. A full-stack developer. 
-                                    I'm pursuing B. Tech from GGITS Jabalpur, in Computer Science Engineering.
-                                    I like building website
-                                    and learning new things. You'll always find me working 
+                                    I like building website and learning new things
+                                    . You'll always find me working 
                                     on a project for hackathons. 
                                     I have been working with web based tools 
                                     & technologies for over a year now. 
                                     I am able to build fast, secure 
                                     and production-grade applications.
                                     I am also an active member of the UNI.DEV Club - GGITS.
+                                    <br />
+                                    
+                                    I also like the space, anime, music, myths and countryside.  
+                                    In my free time i usally watch anime or just overthink, 
+                                    
                                     </p>
                             </div>
             </div>
 
-            <h1 className="tech">Technologies</h1>
+            <div className="tech section">
+
+            <h1 className="heading">Technologies</h1>
             <div className="technologies">
                 
                 <ul>
@@ -67,7 +73,9 @@ export default function Portfolio() {
                 </ul>
             </div>
 
-            <div className="project">
+            </div>
+
+            <div className="project section">
                 <h1>Projects</h1>
                 <div className="projects">
                     <div className="project1">
@@ -122,7 +130,7 @@ export default function Portfolio() {
                 </div>
             </div>
 
-            <div className="contactMe">
+            <div className="contactMe section">
 
                 <h1 className="contact">Contact Me</h1>
                 <div className="contact">
