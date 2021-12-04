@@ -1,8 +1,18 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import './css/portfolio.css'
 import NavBar from './NavBar'
 
 export default function Portfolio() {
+
+    const [onScroll, setonScroll] = useState(0)
+    
+    useEffect(() => {
+        window.onscroll = () => {
+          setonScroll(window.pageYOffset)
+        }
+      }, []);
+    
+
     return (
         <>
         
@@ -10,12 +20,12 @@ export default function Portfolio() {
         <div className="Home-page">
             <div className="container">
                  
-                        <h1 id="name">Hey There, I'm Abhay Verma</h1>   
+                        <h1 id="name">Hey There! I'm Abhay Verma</h1>   
                         <p id="tagLine">Computer Science Engineer</p>
                     </div>
 
             <div className="aboutMe section">
-
+                {onScroll}
                 <h1>About Me</h1>
                             <div className="content">
                                 <p>Hi, I am Abhay. A full-stack developer. 
@@ -28,9 +38,9 @@ export default function Portfolio() {
                                     and production-grade applications.
                                     I am also an active member of the UNI.DEV Club - GGITS.
                                     <br />
-                                    
+                                    <br />
                                     I also like the space, anime, music, myths and countryside.  
-                                    In my free time i usally watch anime or just overthink, 
+                                    In my free time i usally watch anime or just overthink. 
                                     
                                     </p>
                             </div>
