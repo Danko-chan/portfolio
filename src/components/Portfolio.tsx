@@ -1,16 +1,19 @@
-import {React, useState, useEffect} from 'react'
+import React from 'react'
 import './css/portfolio.css'
 import NavBar from './NavBar'
 
+
+
 export default function Portfolio() {
 
-    const [onScroll, setonScroll] = useState(0)
     
-    useEffect(() => {
-        window.onscroll = () => {
-          setonScroll(window.pageYOffset)
-        }
-      }, []);
+    // const [onScroll, setonScroll] = useState(0)
+    
+    // useEffect(() => {
+    //     window.onscroll = () => {
+    //       setonScroll(window.pageYOffset)
+    //     }
+    //   }, []);
     
 
     return (
@@ -25,9 +28,9 @@ export default function Portfolio() {
                     </div>
 
             <div className="aboutMe section">
-                {onScroll}
-                <h1>About Me</h1>
-                            <div className="content">
+                {/* {onScroll} */}
+                <h1 >About Me</h1>
+                            <div className="content" >
                                 <p>Hi, I am Abhay. A full-stack developer. 
                                     I like building website and learning new things
                                     . You'll always find me working 
@@ -48,11 +51,11 @@ export default function Portfolio() {
 
             <div className="tech section">
 
-            <h1 className="heading">Technologies</h1>
+            <h1 className="heading " >Technologies</h1>
             <div className="technologies">
-                
+                 
                 <ul>
-                    <li><img src={require('./assets/technologies/javascript.png')} alt="javascript" /> JavaScript</li>
+                    <li> JavaScript</li>
                     <li>Java</li>
                     <li>Python</li>
                     <li></li>
