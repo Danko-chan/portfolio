@@ -7,14 +7,7 @@ import NavBar from './NavBar'
 export default function Portfolio() {
 
     
-    // const [onScroll, setonScroll] = useState(0)
-    
-    // useEffect(() => {
-    //     window.onscroll = () => {
-    //       setonScroll(window.pageYOffset)
-    //     }
-    //   }, []);
-    
+
 
     return (
         <>
@@ -23,12 +16,12 @@ export default function Portfolio() {
         <div className="Home-page">
             <div className="container">
                  
-                        <h1 id="name">Hey There! I'm Abhay Verma</h1>   
+                        <h1 id="name">Hey There! I'm React Apps</h1>   
                         <p id="tagLine">Computer Science Engineer</p>
                     </div>
 
             <div className="aboutMe section">
-                {/* {onScroll} */}
+                
                 <h1 >About Me</h1>
                             <div className="content" >
                                 <p>Hi, I am Abhay. A full-stack developer. 

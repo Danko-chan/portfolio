@@ -6,8 +6,9 @@ import ThemePicker from './components/ThemePicker';
 function App() {
   return (
       
-     <Portfolio />
-    // <ThemePicker />
+    //  <Portfolio />
+    // <TestPage />
+     <ThemePicker />
   );
 }
 
