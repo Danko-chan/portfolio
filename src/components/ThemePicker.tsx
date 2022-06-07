@@ -1,5 +1,5 @@
 import React from 'react'
-import Portfolio from './Portfolio'
+import { Outlet, Link } from "react-router-dom";
 
 export default function ThemePicker() {
     
@@ -10,19 +10,19 @@ export default function ThemePicker() {
         <div className="container">
             <h1>Pick a Theme</h1>
             <div>
-                <a href='@'>Index</a>
+                <Link to="/portfolio">Index</Link>
             </div>
             <div>
-                <a href='@'>Minimalist</a>
+                <Link to='/minimalist'>Minimalist</Link>
             </div>
             <div>
-                <a href='@'>Hacker</a>
+                <Link to='/hacker'>Hacker</Link>
             </div>
             <div>
-                <a href='@'>Frontend Dev</a>
+                <Link to='/frontend-dev'>Frontend Dev</Link>
             </div>
             <div>
-                <a href='@'>Anime</a>
+                <Link to='anime'>Anime</Link>
             </div>
         
         </div>

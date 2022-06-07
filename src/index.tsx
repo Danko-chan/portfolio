@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Portfolio from './components/Portfolio';
+import IndexTheme from './components/Themes/IndexTheme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <App /> } />
+        <Route path="/portfolio" element={<Portfolio />} />  
+        <Route path="/indextheme" element={<IndexTheme />} />      
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
